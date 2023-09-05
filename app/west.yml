@@ -2,12 +2,13 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: 1gn1t10n
+      url-base: https://github.com/1gn1t10n
+
   projects:
     - name: zephyr
-      remote: zmkfirmware
-      revision: v3.2.0+zmk-fixes
+      remote: 1gn1t10n
+      revision: v3.2.0+zmk-fixes-suspend
       clone-depth: 1
       import:
         name-blocklist:
